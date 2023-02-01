@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    margin: 100px auto;
+    background-color:midnightblue;
+    border: 2px solid inherit;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.scoreboard{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 50px 40px;
+    height: 80%;
+    width: 80%;
+ 
+   
+}
+
+#reset{
+    position: absolute;
+    top: 260px;
+    left: 320px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.home h1{
+    color: white;
+    
+}
+
+
+#home, #guest{
+   
+    height: 100px;
+    width: 110px;
+    background: black;
+    color: red;
+    font-size: 60px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 3px;
+    
+  
+}
+
+
+.score-btn{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    background-color: midnightblue ;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    padding: 2.5px;
+    cursor: pointer;
+   
+}
+
+#reset{
+    position: absolute;
+}
